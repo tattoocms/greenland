@@ -1,0 +1,245 @@
+/*
+Theme Name: Green Land
+Theme URI: http://wwww.tattoocms.it/templates/plastic.html
+Author: Nicola Lambathakis
+
+
+------------------------------------------------------------------------- */
+
+/* Has the background image for the diagonal stripes on the right. */
+
+html {
+background-image: url(images/right_side.gif);
+background-repeat: repeat-y;
+background-position: top right;
+}
+
+/* Has the background image for the diagonal stripes on the left. */
+
+body {
+margin: 0;
+font-family: verdana, arial, helvetica, sans-serif;
+background-image: url(images/left_side.gif);
+background-repeat: repeat-y;
+color: #000000;
+}
+
+/* Banner across top of page that says the name of the whole site */
+
+#main-title {
+margin-bottom: 0;
+margin-left: 110px;
+margin-right: 110px;
+font-size: .7em;
+letter-spacing: 5px;
+text-align: right;
+margin-top: 0;
+padding-bottom: 8px;
+font-weight: bold;
+padding-top: 8px;
+padding-right: 50px;
+background-color: #3CB78D;
+color: #ffffff;
+border-top: 1px #000000 solid;
+border-bottom: 1px #000000 solid;
+}
+
+/* To create the main image near the top of the page. */
+
+#header-image {
+background-color: #336a74;
+background-image: url(images/header_image.jpg);
+background-repeat: no-repeat;
+background-position: center top;
+height: 177px;
+border-top: 2px #fff solid;
+border-bottom: 2px #fff solid;
+margin-left: 110px;
+margin-right: 110px;
+}
+
+/* For the main navigation bar for the site. */
+
+#navbar {
+margin-bottom: 0;
+margin-left: 110px;
+margin-right: 110px;
+font-size: .65em;
+text-align: center;
+margin-top: 0;
+padding-bottom: 8px;
+font-weight: bold;
+padding-top: 8px;
+background-color: #265057;
+color: #ffffff;
+word-spacing: 8px;
+border-bottom: 2px #fff solid;
+}
+
+#navbar a:link, #navbar a:visited {
+color: #ffffff;
+word-spacing: none;
+}
+
+#navbar a.current {
+color: #ff4700;
+}
+
+#navbar a:hover {
+color: #ff4700;
+text-decoration: underline;
+}
+
+/* For the pullquote or other text directly under the navigation bar. */
+
+#headline {
+font-size: .65em;
+padding-top: 30px;
+text-align: justify;
+background-color: #C5ECDF;
+padding-left: 100px;
+padding-right: 100px;
+margin-left: 110px;
+margin-right: 110px;
+margin-bottom: 0;
+line-height: 1.5em;}
+
+/* For the byline on the pullquote. */
+
+p.byline {
+text-align: right;
+margin-bottom: 0;
+}
+
+h1 {
+margin-left: 110px;
+margin-right: 110px;
+font-size: .8em;
+padding-bottom: 3px;
+padding-top: 23px;
+padding-left: 50px;
+padding-right: 0;
+color: #000000;
+border-bottom: 1px #fff solid;
+letter-spacing: 5px;
+font-weight: normal;
+background-color: #C5ECDF;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+/* Contains all the main body of text on the page, including the h2 elements. */
+
+#main-text {
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 110px;
+margin-right: 110px;
+padding: 30px;
+font-size: .7em;
+line-height: 1.8em;
+background-color: #C5ECDF;
+}
+
+#main-text p {
+text-align: justify;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+h2 {
+padding-bottom: 3px;
+padding-right: 0;
+color: #000000;
+border-bottom: 1px #000000 solid;
+letter-spacing: 5px;
+font-weight: normal;
+margin-left: 50px;
+margin-right: 50px;
+font-size: 1em;
+margin-top: 0;
+padding-top: 10px;
+}
+
+p, ul, ol, table {
+margin-top: 17px;
+margin-bottom: 0;
+}
+
+ol, ul {
+margin-left: 75px;
+margin-right: 75px;
+}
+
+a:link, a:visited {
+text-decoration: none;
+font-weight: bold;
+color: #ff4700;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* Styles for the footer at the bottom of the page */
+
+#footer {
+text-align: center;
+margin-bottom: 0;
+padding-top: 8px;
+padding-bottom: 8px;
+font-size: 100%;
+margin-top: 20px;
+padding-right: 50px;
+background-color: #3CB78D;
+color: #ffffff;
+font-weight: bold;
+border-top: 1px #000000 solid;
+border-bottom: 1px #000000 solid;
+}
+
+#footer a:link, #footer a:visited {
+color: #ffffff;
+text-decoration: none;
+}
+
+#footer a:hover {
+text-decoration: underline;
+color: #ffffff;
+}
+/*Menu*/
+#menu {
+margin: 2px 16px 2px 11px;
+min-height: 30px;
+background: #007AAC ;
+margin-left: 110px;
+margin-right: 110px;
+}
+
+#menu ul {
+height: 100%;
+margin: 0;
+padding: 0 0 0 10px;
+}
+
+#menu li {
+list-style-type: none;
+float: left;
+width: auto;
+margin: 7px 5px 0 5px;
+}
+
+#menu a:link, #menu a:visited {
+display: block;
+color: #D1EBF4;
+font-weight: bold;
+text-decoration: none;
+padding: 1px 10px 2px 12px;
+}
+
+#menu a:hover, #menu a:visited:hover {
+color: #FFFFFF;
+font-weight: bold;
+text-decoration: none;
+padding: 2px 10px 1px 12px;
+}
